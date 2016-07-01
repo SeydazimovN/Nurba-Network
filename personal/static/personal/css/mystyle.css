@@ -1,0 +1,28 @@
+.head_strap {
+	background-color: blue;	
+	border: 3px solid black;
+}
+
+.profile_img {
+	border: 1px solid black;
+	height: 250px;
+	width: 350px;
+	background-image: url(../img/froning.jpg);
+	float: left;   
+    margin-left: 5px;
+    background-repeat: no-repeat;
+}
+
+.profile_info {
+	border: 1px solid black;
+	height: 250px;
+	width: 550px;
+	float: left;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+.snippet {
+	float: none;
+}
+

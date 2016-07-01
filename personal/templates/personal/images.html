@@ -1,0 +1,16 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+
+<h1> Images is here! </h1>
+
+<h3> <a href = '/images/add'> Add image </a> </h3>
+
+{% for obj in queryset %}
+	
+	<h3> {{ obj.title }} </h3>
+	<img src="{{ obj.link }}" alt="{{ obj.title }}">
+
+{% endfor %}
+
+{% endblock %}
